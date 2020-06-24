@@ -25,6 +25,7 @@ body {
   max-width: 20vw;
   background: #fff;
   margin-top: 10vh;
+  transition: all 1s;
   .cardTop {
     position: relative;
     .dateRounded {
@@ -41,11 +42,13 @@ body {
       position: absolute;
       top: 5%;
       left: 80%;
+      z-index: 1;
     .cardImg {
-        display: flex;
-        flex-direction: column;
-        text-align: left;
-        text-align: left;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      text-align: left;
+      overflow: hidden;
       }    
     }
   }
@@ -85,6 +88,9 @@ body {
       color: rgba(192, 119, 123, 1);
       font-size: 1.2rem;
     }
+    .cardDescription {
+      display: none;
+    }
     .cardInfo {
       display: flex;
       flex-direction: row;
@@ -100,18 +106,22 @@ body {
 }
 
 // ! Why is nesting in .cardImg not working ? 
-img {
+.cardImg img {
   width: 100%;
   max-height: auto;
-}  
+  transition: all 1s;
+} 
 
+.card:hover {
+  box-shadow: 1px 1px 12px #555;
+  }
+.cardBottom {
+    transform: translateY(-80%);
+}
+img {
+    transform: scale(1.2, 1.2);
+    opacity: 0.5;
+}
 
-
-
-
-
-
-
- 
 
 // FOOTER
