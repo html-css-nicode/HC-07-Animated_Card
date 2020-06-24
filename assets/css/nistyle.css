@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  background: whitesmoke;
+}
+
+.card {
+  max-width: 20vw;
+  background: #fff;
+  margin-top: 10vh;
+}
+
+.card .cardTop {
+  position: relative;
+}
+
+.card .cardTop .dateRounded {
+  background: #dc5645;
+  width: 5vh;
+  height: 5vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+  position: absolute;
+  top: 5%;
+  left: 80%;
+}
+
+.card .cardTop .dateRounded .cardImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  text-align: left;
+}
+
+.card .cardBottom {
+  position: relative;
+}
+
+.card .cardBottom .photoText {
+  background: #dc5645;
+  width: 10vh;
+  height: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 0.8em;
+  position: absolute;
+  top: -3vh;
+  left: 0;
+  text-transform: uppercase;
+}
+
+.card .cardBottom .cardCountry {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2vh 1vw;
+  text-align: left;
+  text-transform: uppercase;
+  color: #333333;
+  font-size: 1.4rem;
+}
+
+.card .cardBottom .cardTeasing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 1vw;
+  margin-bottom: 1vh;
+  text-align: left;
+  text-transform: capitalize;
+  color: #c0777b;
+  font-size: 1.2rem;
+}
+
+.card .cardBottom .cardInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 3vh 1vw;
+  padding-bottom: 2vh;
+  color: #929292;
+}
+
+.card .cardBottom .cardCommentCounter {
+  padding-left: 1vw;
+}
+
+img {
+  width: 100%;
+  max-height: auto;
+}
+/*# sourceMappingURL=nistyle.css.map */
